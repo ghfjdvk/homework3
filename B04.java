@@ -5,7 +5,7 @@ public class B04 {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
 		double tax = 0;
-		System.out.print("연봉을 월단위로 입력하세요 ");
+		System.out.print("연봉을 원단위로 입력하세요 ");
 		int money = scanner.nextInt();
 		if(money < 10000000)
 			tax = money * 9.5/100;
